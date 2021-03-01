@@ -63,7 +63,7 @@ This downloaded all the required files that are needed to complete the 5-day wor
 
 A directory is made as shown below
 
-![](RackMultipart20210301-4-1d9cznp_html_b7f03213b8e1f777.png)
+![1](https://user-images.githubusercontent.com/20883889/109559307-7fd7d600-7b00-11eb-8ca0-71c2c47d283c.jpg)
 
 _Figure 1 Directory after git clone_
 
@@ -73,11 +73,11 @@ We were taught about SPICE syntax. To simulate a given circuit 3 things are requ
 2. Spice model parameters- This is a .mod file that contains information about all the parameters of the device which are provided by the foundry
 3. Spice simulation commands- To mathematically predict the behavior of the electronic circuit
 
-![](RackMultipart20210301-4-1d9cznp_html_a7aa06e53a45fc9.png)
+![2](https://user-images.githubusercontent.com/20883889/109559500-bf062700-7b00-11eb-8541-1d5b7ad90812.jpg)
 
 Wrote SPICE deck for a nMOS circuit. Leafpad was used to write/edit the spice files.
 
-![](RackMultipart20210301-4-1d9cznp_html_2bb2864d26b1c45.png)
+![3](https://user-images.githubusercontent.com/20883889/109559547-d0e7ca00-7b00-11eb-89c8-4a3a700b84dc.jpg)
 
 _Figure 2 circuit nodes shown in Nmos circuit_
 
@@ -127,7 +127,7 @@ ngspice-\&gt; plot -vdd#branch
 
 after these commands, you will get the drain characteristics of the above MOSFET
 
-![](RackMultipart20210301-4-1d9cznp_html_59efccf23a13bf60.png)
+![4](https://user-images.githubusercontent.com/20883889/109559618-e5c45d80-7b00-11eb-9e4c-f8e14ef8ff91.jpg)
 
 _Figure 3 Mosfet drain characteristics with Vdd, vin= 1.8v, w=5um, and l=2um (a long channel device)._
 
@@ -141,7 +141,7 @@ Day 2 was dedicated to lower node devices and basic knowledge of CMOS inverter. 
 
 There are two models one for a long-channel device and the other one is for a short-channel device. So, we have to make a model that is common for both and that came up to be
 
-![](RackMultipart20210301-4-1d9cznp_html_2e265ea276f8d3ac.jpg)
+![5](https://user-images.githubusercontent.com/20883889/109559679-f8d72d80-7b00-11eb-8407-02fae38a27af.jpg)
 
 Apart from this a lot of theoretical concepts were taught like:
 
@@ -164,7 +164,7 @@ ngspice day2\_nfet\_idvds\_L015\_W039
 
 plot -vdd#branchh
 
-![](RackMultipart20210301-4-1d9cznp_html_3fb79952dc939c23.png)
+![6](https://user-images.githubusercontent.com/20883889/109559722-0a203a00-7b01-11eb-83d8-450e88f43785.jpg)
 
 _Figure 4 Drain characteristics of a (a) long channel device (b) short channel device_
 
@@ -190,7 +190,7 @@ plot -vdd#branchh
 
 In the transfer characteristics shown below, one can see that the drain current quadratically increases with Vgs. Whereas, in the case of a short channel device the drain current in the start increases quadratically but later on it increases linearly.
 
-![](RackMultipart20210301-4-1d9cznp_html_d0437157e3207e7a.png)
+![7](https://user-images.githubusercontent.com/20883889/109559769-1d330a00-7b01-11eb-91c3-66abed22463b.jpg)
 
 _Figure 5 transfer characteristics of (a) long channel device (b) shot channel device_
 
@@ -209,7 +209,7 @@ Theoretical concepts that were covered on this day included:
 - Rise delay and fall delay
 - Spice deck for calculation of rise delay and fall delay
 
-![](RackMultipart20210301-4-1d9cznp_html_6a0542a73c7ae13b.png)
+![ds](https://user-images.githubusercontent.com/20883889/109559879-4489d700-7b01-11eb-9c82-f87dfce9ed33.jpg)
 
 _Figure 6 Cmos inverter circuit_
 
@@ -217,7 +217,7 @@ From the above circuit, one can write a spice netlist for a cmos inverter.
 
 Switching Threshold, Vm: It is defined as a point where Vin=Vout and both pmos and nmos operate in the saturation region. It can be identified from the VTC curve, it is a point where a Vout=Vin line intersects with the VTC curve.
 
-![](RackMultipart20210301-4-1d9cznp_html_705b6214a782d9f0.jpg)
+![dsd](https://user-images.githubusercontent.com/20883889/109559929-52d7f300-7b01-11eb-80bb-5456bba68e62.jpg)
 
 Rise delay: The delay in propagation when the output rises from low to high when the input switches from high to low and it is generally calculated at 50% of the input/output value.
 
@@ -239,7 +239,7 @@ plot out vs in
 
 the leafpad command is to open the editor and change the values of Wp
 
-![](RackMultipart20210301-4-1d9cznp_html_15441661a4d8464d.png)
+![8](https://user-images.githubusercontent.com/20883889/109560100-7bf88380-7b01-11eb-836f-138d4752a34c.jpg)
 
 _Figure 7 VTC curve showing values of Vm for (a) wp=0.42u (b) wp=1.68u_
 
@@ -255,7 +255,7 @@ ngspice day3\_inv\_tran\_Wp084\_Wn036
 
 plot out vs time in
 
-![](RackMultipart20210301-4-1d9cznp_html_b8dd227617e5da19.png)
+![9](https://user-images.githubusercontent.com/20883889/109560108-7d29b080-7b01-11eb-9644-765acd82313a.jpg)
 
 _Figure 8 graph showing rise and fall delay for (a) Wp=0.42 (b) Wp=1.68_
 
@@ -284,13 +284,13 @@ From the above table, we can infer that:
 
 Day4 was dedicated to the understanding of the Noise margin concept. In lower node devices one frequent problem is crosstalk noise and glitches. A good device is a one that can neglect all those noises and can still operate to do the task it was meant to. Noise margin is the amount of noise that can be added to the cmos circuit without altering its operation. As we know that cmos can be used in digital design. Thus in this case noise margin should such that a logic &#39;1&#39; should be recognized as logic &#39;1&#39; only, not as logic &#39;0&#39; and vice versa. If by chance the voltage bump lies between the undefined region then that is an unsafe glitch and needs to be fixed.
 
-![](RackMultipart20210301-4-1d9cznp_html_5c2500783c7c34f9.png)
+![10](https://user-images.githubusercontent.com/20883889/109560111-7d29b080-7b01-11eb-934c-f68e792bf5a6.jpg)
 
 _Figure 10 noise margin in VTC graph_
 
 To calculate noise margins, two points are taken which intersect with the VTC curve and -1 slope lines. Corresponding output and input voltage levels are noted which will be used to calculate the noise margins. Below is a map showing different voltages and two noise margins. One is Noise margin high which is used to differentiate logic &#39;1&#39; and the other is Noise margin low to differentiate logic &#39;0&#39;.
 
-![](RackMultipart20210301-4-1d9cznp_html_c506185d0e8e7578.png)
+![11](https://user-images.githubusercontent.com/20883889/109560114-7dc24700-7b01-11eb-9eb9-140378f79267.jpg)
 
 _Figure 11 Noise margin voltage map_
 
@@ -314,7 +314,7 @@ plot out vs in
 
 the leafpad command is to open the editor and change the values of Wp.
 
-![](RackMultipart20210301-4-1d9cznp_html_7704942736075a77.png)
+![12](https://user-images.githubusercontent.com/20883889/109560117-7dc24700-7b01-11eb-9b6d-6218219f2e38.jpg)
 
 _Figure 12 Noise margins shown in VTC graph (a) Wp=0.42u (b) Wp=1.68u_
 
@@ -348,7 +348,7 @@ On day5 following concepts were covered:
 
 After fabrication, it&#39;s not like that your device will be manufactured perfectly with no imperfection. Generally, device parameters vary due to various processes that the device goes under during fabrication for e.g the W/L ratio vary due to etching and tOX vary due to oxidation.
 
-![](RackMultipart20210301-4-1d9cznp_html_924b4406b466e0e1.png)
+![13](https://user-images.githubusercontent.com/20883889/109560121-7e5add80-7b01-11eb-9c45-e4ccf83451b7.jpg)
 
 _Figure 14 Device variation due to (a) etching (b) oxidation_
 
@@ -362,7 +362,7 @@ To do so simply type in terminal:
 
 ngspice day5\_inv\_supplyvariation\_Wp1\_Wn036
 
-![](RackMultipart20210301-4-1d9cznp_html_f922ae23354266b3.png)
+![14](https://user-images.githubusercontent.com/20883889/109560123-7e5add80-7b01-11eb-857b-ef3eba4dc65c.jpg)
 
 _Figure 15 various VTC graph shown with varying supply voltage_
 
@@ -376,7 +376,7 @@ ngspice day5\_inv\_devicevariation\_wp7\_wn042
 
 plot out vs in
 
-![](RackMultipart20210301-4-1d9cznp_html_28e5c55feab64d57.png)
+![15](https://user-images.githubusercontent.com/20883889/109560125-7ef37400-7b01-11eb-8b80-621da9f2cfbf.jpg)
 
 _Figure 16 Device variation (a) Wp=1.68u, Wn=0.36u (b) Wp=0.42u, Wn=1.68u_
 
