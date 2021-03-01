@@ -9,21 +9,21 @@ This workshop aim towards the basic understanding of a semiconductor device name
 
 [Important GitHub Repositories 1](#_Toc65542930)
 
-[Day 1 2](#_Toc65542931)
+[Day 1](#_Toc65542931)
 
-[Day 2 4](#_Toc65542934)
+[Day 2](#_Toc65542934)
 
-[Day 3 6](#_Toc65542937)
+[Day 3](#_Toc65542937)
 
-[Day 4 9](#_Toc65542940)
+[Day 4](#_Toc65542940)
 
-[Day 5 11](#_Toc65542943)
+[Day 5](#_Toc65542943)
 
-[Conclusion 12](#_Toc65542946)
+[Conclusion](#_Toc65542946)
 
-[Acknowledgment 12](#_Toc65542947)
+[Acknowledgment](#_Toc65542947)
 
-[References 12](#_Toc65542948)
+[References](#_Toc65542948)
 
 # Important GitHub Repositories
 
