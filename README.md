@@ -322,11 +322,11 @@ More simulations were done for Wp=0.84u,1u, 1.26u, and corresponding noise margi
 
 | **Wp** | **Wn** | **Ln=Lp** | **NM**** H **|** NM ****L** |
 | --- | --- | --- | --- | --- |
-| 0.42u | 0.36u | 0.15u | 0.30V | 0.30V |
-| 0.84u | 0.36u | 0.15u | 0.35V | 0.30V |
-| 1.00u | 0.36u | 0.15u | 0.40V | 0.30V |
-| 1.26u | 0.36u | 0.15u | 0.42V | 0.27V |
-| 1.68u | 0.36u | 0.15u | 0.42V | 0.27V |
+| 0.42u | 0.36u | 0.15u | 0.799V | 0.649V |
+| 0.84u | 0.36u | 0.15u | 0.726V | 0.658V |
+| 1.00u | 0.36u | 0.15u | 0.733V | 0.659V |
+| 1.26u | 0.36u | 0.15u | 0.751V | 0.675V |
+| 1.68u | 0.36u | 0.15u | 0.715V | 0.677V |
 
 _Figure 13 Table showing Noise margins With varying (Wp/Lp)/(Wn/Ln) ratio_
 
