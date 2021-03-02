@@ -5,9 +5,9 @@ This workshop aim towards the basic understanding of a semiconductor device name
 
 # Contents
 
-[Sky130 Circuit Design Workshop 1](#_Toc65542929)
+[Sky130 Circuit Design Workshop ](#_Toc65542929)
 
-[Important GitHub Repositories 1](#_Toc65542930)
+[Important GitHub Repositories ](#_Toc65542930)
 
 [Day 1](#_Toc65542931)
 
